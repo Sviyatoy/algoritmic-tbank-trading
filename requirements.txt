@@ -1,8 +1,18 @@
-tinkoff-investments>=1.0.0
+# Основная библиотека Tinkoff API (устанавливается с GitHub)
+git+https://github.com/Tinkoff/invest-python.git
+
+# Фиксированные версии зависимостей (для совместимости)
+cachetools==5.5.2
+protobuf==4.25.9
+grpcio==1.80.0
+deprecation==2.1.0
+python-dateutil==2.9.0.post0
+
+# Дополнительные библиотеки для анализа данных, ML и автоматизации
 pandas>=2.0.0
 numpy>=1.24.0
-scikit-learn>=1.3.0
-lightgbm>=4.0.0
-ta>=0.10.0
 python-dotenv>=1.0.0
+lightgbm>=4.0.0
+scikit-learn>=1.3.0
+ta>=0.10.0
 schedule>=1.2.0
